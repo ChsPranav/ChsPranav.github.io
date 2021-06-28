@@ -29,6 +29,7 @@ body {
         background-size: contain;
         background-position: center;
         max-height: 100vh;
+        overflow: hidden;
     }
     .doodle {
         display: none;
