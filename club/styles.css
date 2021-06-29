@@ -10,7 +10,7 @@ body {
     background-color: var(--primary);
 }
 
-@media(min-width:560px) {
+@media(min-width:1024px) {
     .maincontainer1 {
         padding: 50px;
         color: var(--secondary);
@@ -21,7 +21,24 @@ body {
         background-repeat: no-repeat;
     }
 }
+@media (max-width:1024px){
+    .maincontainer1 {
+        padding: 50px;
+        color: var(--secondary);
+        min-height: 100vh;
+        background-image: url(images/Doodle\ round\ Dots.png);
+        background-position: -137px calc(100vh - 137px);
+        ;
+        background-repeat: no-repeat;
+    }
+    .doodle{
+        width:36rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
 
+}
 @media(max-width:559px) {
     body {
         background-image: url(images/Mobile\ Background.png);
@@ -40,7 +57,7 @@ body {
         color: var(--secondary);
         min-height: 100vh;
         background-image: url(images/Doodle\ round\ Dots.png);
-        background-position: -137px calc(100vh - 137px);
+        background-position: -160px calc(100vh - 118px);
         background-repeat: no-repeat;
     }
 }
@@ -60,13 +77,15 @@ body {
 
 h1 {
     margin: 30px 0;
+    font-size: 50px;
 }
 
 .boldheading {
     color: var(--secondary);
-    text-shadow: 3px 0 var(--secondary);
+    text-shadow: 1px 0 var(--secondary);
     letter-spacing: 5px;
-    font-weight: bold;
+    font-size: 70px;
+    font-weight: bolder;
 }
 
 .caption {
@@ -78,7 +97,7 @@ h1 {
         height: calc(100vh - 120px);
         position: absolute;
         z-index: -1;
-        top: 70px;
+        top: 100px;
         right: 50px;
     }
 }
